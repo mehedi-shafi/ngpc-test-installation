@@ -1,0 +1,1 @@
+print '4. Python 2 run: OK'

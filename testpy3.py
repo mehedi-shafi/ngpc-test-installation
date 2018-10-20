@@ -1,0 +1,1 @@
+print ("5. Python 3 run: OK")
