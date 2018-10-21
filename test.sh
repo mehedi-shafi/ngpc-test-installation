@@ -31,7 +31,7 @@ java -version
 javac -version
 
 # install python
-sudo apt install python-minimal >> log.txt
+sudo apt install python-minimal -y >> log.txt
 check_command "Python 2 installed" ""
 
 # install sublime
@@ -46,9 +46,9 @@ sudo apt install kate -y >> log.txt
 check_command "Kate installed" ""
 
 # install chrome
-# sudo apt install gdebi-core -y >> log.txt
-# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-# sudo gdebi google-chrome-stable_current_amd64.deb
+sudo apt install gdebi-core -y >> log.txt
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
 
 
 # install eclipse
@@ -73,10 +73,10 @@ java Main
 cd ..
 
 # test python 2
-python2 testpy2.py
+python testpy2.py
 
 # test python 3
-python testpy3.py
+python3 testpy3.py
 
 # setting wallpaper
 cp bg.png ~/Pictures/bg.png
