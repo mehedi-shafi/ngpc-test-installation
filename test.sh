@@ -54,7 +54,7 @@ sudo gdebi google-chrome-stable_current_amd64.deb
 # install eclipse
 cp eclipse.tar.gz ~/Downloads
 tar xfz ~/Downloads/eclipse.tar.gz
-~/Downloads/eclipse/eclipse-installer/eclipse-inst
+./eclipse-installer/eclipse-inst
 
 mkdir output
 
